@@ -1,9 +1,13 @@
 import './App.css';
 
+import HomePage from './pages/HomePage';
+import Footer from './components/Footer/Footer';
+
 function App() {
   return (
     <div className="App">
-      <h1>Algenis Photography</h1>
+      <HomePage />
+      <Footer />
     </div>
   );
 }
