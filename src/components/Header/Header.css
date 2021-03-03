@@ -1,3 +1,26 @@
+:root {
+    --first-color: 	#3c2411;
+    --second-color: #4f3928;
+    --third-color: #8a7b70;
+    --fourth-color: #c4bdb7;
+    --fifth-color: #ebe9e7;
+    --font: 'Sun Brush', cursive;
+}
+
+.Header h1 {
+    padding: 10px;
+    margin: 0;
+    font-family: var(--font);
+    font-size: 70px;
+    color: var(--fifth-color);
+}
+
+.Header {
+    background-color: black;
+    padding: 10px;
+    margin: 0;
+}
+
 .links {
     display: flex;
     justify-content: space-around;
@@ -7,8 +30,11 @@
     
 }
 
-
 .links a {
     text-decoration: none;
-    color: black;
+    color: var(--fifth-color);
+}
+
+.Header img {
+    width: 400px;
 }

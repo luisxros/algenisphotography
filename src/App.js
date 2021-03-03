@@ -27,7 +27,7 @@ function App() {
         <Route exact path="/Portraits" render={props => <Portraits />}/>
         <Route exact path="/Fashion" render={props => <Fashion/> }/>
         <Route exact path="/Food" render={props => <Food/> }/>
-        <Route exact path="Corporate" render={props => <Corporate/> }/>
+        <Route exact path="/Corporate" render={props => <Corporate/> }/>
         <Route exact path="/Maternity" render={props => <Maternity/> }/>
         <Route exact path="/Family" render={props => <Family/> }/>
         <Route exact path="/Wedding" render={props => <Wedding/> }/>

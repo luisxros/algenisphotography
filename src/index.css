@@ -5,6 +5,18 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  
+}
+
+@font-face {
+  font-family: 'Sun Brush';
+  src: local('Sun Brush'),url(./Fonts/Sun\ Brush.ttf) format('truetype');
+}
+
+
+@font-face {
+  font-family: 'Northwell';
+  src: local('Northwell'),url(./Fonts/Northwell.ttf) format('truetype');
 }
 
 code {

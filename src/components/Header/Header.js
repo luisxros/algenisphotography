@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import {Link} from 'react-router-dom';
+import AlgenisLogo1 from '../../images/AlgenisLogo1.png'
 
 import { withRouter } from "react-router-dom";
 import './Header.css';
@@ -12,6 +13,7 @@ class Header extends Component {
       const path = this.props.location.pathname.slice(1);
       return (
         <div className="Header">
+          <img src={AlgenisLogo1} alt="AlgenisLogo"/>
           <h1>{path}</h1>
          
           <ul className="links">

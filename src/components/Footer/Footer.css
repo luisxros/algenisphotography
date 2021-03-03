@@ -1,1 +1,13 @@
 
+:root {
+    --first-color: 	#3c2411;
+    --second-color: #4f3928;
+    --third-color: #8a7b70;
+    --fourth-color: #c4bdb7;
+    --fifth-color: #ebe9e7;
+    --font: 'Sun Brush', cursive;
+}
+
+.Footer {
+    color: var(--fifth-color) ;
+}
