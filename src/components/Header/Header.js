@@ -13,8 +13,8 @@ class Header extends Component {
       return (
         <div className="Header">
           <h1>{path}</h1>
-          <div className="links">
-          <ul>
+         
+          <ul className="links">
               <li><Link to="/Portraits">Portraits</Link></li>
               <li><Link to="/Fashion">Fashion</Link></li>
               <li><Link to="/Food">Food</Link></li>
@@ -25,7 +25,7 @@ class Header extends Component {
               <li><Link to="/Rates">Rates</Link></li>
               <li><Link to="/Contact">Contact me</Link></li>
           </ul>
-          </div>
+          
         </div>
       );
     }
