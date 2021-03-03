@@ -1,0 +1,17 @@
+.links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+
+.Header li {
+    list-style: none;
+}
+
+.Header a {
+    text-decoration: none;
+    color: black;
+    /* border: 1px solid black; */
+}
