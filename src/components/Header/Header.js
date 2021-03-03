@@ -20,10 +20,10 @@ class Header extends Component {
               <li><Link to="/Food">Food</Link></li>
               <li><Link to="/Corporate">Corporate</Link></li>
               <li><Link to="/Maternity">Maternity</Link></li>
-              <li><Link to="/Family-Portrait">Family Portrait</Link></li>
+              <li><Link to="/Family">Family</Link></li>
               <li><Link to="/Wedding">Wedding</Link></li>
               <li><Link to="/Rates">Rates</Link></li>
-              <li><Link to="/Contact">Contact me</Link></li>
+              <li><Link to="/Contact">Contact</Link></li>
           </ul>
           
         </div>
