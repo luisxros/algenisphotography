@@ -6,14 +6,14 @@
     --fifth-color: #ebe9e7;
     --font: 'Sun Brush', cursive;
 }
-
+/* 
 .Header h1 {
     padding: 10px;
     margin: 0;
     font-family: var(--font);
     font-size: 70px;
     color: var(--fifth-color);
-}
+} */
 
 .Header {
     background-color: black;
@@ -21,20 +21,16 @@
     margin: 0;
 }
 
-.links {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    list-style: none;
-    flex-wrap: wrap;
-    
-}
 
-.links a {
-    text-decoration: none;
-    color: var(--fifth-color);
-}
 
 .Header img {
-    width: 400px;
+    width: 450px;
+    margin: 10px;
+}
+
+@media screen and (max-width: 700px) {
+    .Header img {
+        width: 250px;
+        margin: 10px;
+    }
 }
