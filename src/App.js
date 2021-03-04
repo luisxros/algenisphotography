@@ -17,7 +17,7 @@ import Contact from './pages/Contact/Contact';
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 
-import { Link, BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (

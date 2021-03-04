@@ -1,8 +1,16 @@
+:root {
+  --first-color: 	#3c2411;
+  --second-color: #4f3928;
+  --third-color: #8a7b70;
+  --fourth-color: #c4bdb7;
+  --fifth-color: #ebe9e7;
+  --font: 'Sun Brush', cursive;
+}
+
 .App {
   text-align: center;
-  background-color: black;
 }
 
 h1 {
-  color: white;
+  color: var(--fifth-color);
 }
