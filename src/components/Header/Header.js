@@ -1,6 +1,6 @@
 import React from "react";
 import './Header.css';
-import AlgenisLogo from '../../images/AlgenisLogo.png'
+import AlgenisLogo from '../../images/Logo/AlgenisLogo.png'
 
 import Navbar from '../Navbar/Navbar';
 

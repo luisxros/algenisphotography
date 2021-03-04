@@ -7,6 +7,7 @@ function Navbar() {
         <div className="Navbar">
             <ul className="links">
               <li><Link to="/Portraits">Portraits</Link></li>
+              <li><Link to="/Couples">Couples</Link></li>
               <li><Link to="/Fashion">Fashion</Link></li>
               <li><Link to="/Food">Food</Link></li>
               <li><Link to="/Corporate">Corporate</Link></li>

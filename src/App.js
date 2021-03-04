@@ -3,6 +3,7 @@ import './App.css';
 // pages
 import HomePage from './pages/HomePage';
 import Portraits from './pages/Portraits/Portraits';
+import Couples from './pages/Couples/Couples';
 import Fashion from './pages/Fashion/Fashion';
 import Food from './pages/Food/Food';
 import Corporate from './pages/Corporate/Corporate';
@@ -25,6 +26,7 @@ function App() {
       <Switch>
         <Route exact path='/' render={props => <HomePage />}/>
         <Route exact path="/Portraits" render={props => <Portraits />}/>
+        <Route exact path="/Couples" render={props => <Couples/>} />
         <Route exact path="/Fashion" render={props => <Fashion/> }/>
         <Route exact path="/Food" render={props => <Food/> }/>
         <Route exact path="/Corporate" render={props => <Corporate/> }/>
