@@ -1,8 +1,7 @@
 
 .Footer {
     color: var(--fifth-color) ;
-    position: fixed;
-    left: 0;
+    position: static;
     bottom: 0;
     width: 100%;
     background-color: var(--third-color);

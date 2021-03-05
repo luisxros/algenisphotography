@@ -1,40 +1,28 @@
+import React from 'react';
+
 import { ImageGroup, Image } from 'react-fullscreen-image'
+import P1 from '../../images/Portrait/P1.jpg';
+import P3 from '../../images/Portrait/P3.jpg';
+import P4 from '../../images/Portrait/P4.jpg';
+import P5 from '../../images/Portrait/P5.jpg';
+import P6 from '../../images/Portrait/P6.jpg';
+import P7 from '../../images/Portrait/P7.jpg';
+import P9 from '../../images/Portrait/P9.jpg';
+import P10 from '../../images/Portrait/P10.jpg';
  
-const images = [
-  'https://unsplash.com/photos/Bkci_8qcdvQ',
-  'https://unsplash.com/photos/hS46bsAASwQ',
-  'https://unsplash.com/photos/2VDa8bnLM8c',
-  'https://unsplash.com/photos/_LuLiJc1cdo',
-  'https://unsplash.com/photos/1Z2niiBPg5A',
-  'https://unsplash.com/photos/pHANr-CpbYM',
-  'https://unsplash.com/photos/pQMM63GE7fo',
-  'https://unsplash.com/photos/2VDa8bnLM8c',
-  'https://unsplash.com/photos/MBkQKiH14ng',
-]
+
  
-export default function App() {
+export default function PortraitImages() {
   return (
-    <ImageGroup>
-      <ul className="images">
-        {images.map(i => (
-          <li key={i}>
-            <Image
-              src={i}
-              alt="nature"
-              style={{
-                position: 'absolute',
-                top: 0,
-                left: 0,
-                right: 0,
-                bottom: 0,
-                height: '100%',
-                width: '100%',
-                objectFit: 'cover',
-              }}
-            />
-          </li>
-        ))}
-      </ul>
-    </ImageGroup>
+    <div className="Images">
+      <img src={P1} alt="P1" height='500px'/>,
+      <img src={P3} alt="P3" height='500px'/>
+      <img src={P4} alt="P4" height='500px'/>
+      <img src={P5} alt="P5" height='500px'/>
+      <img src={P6} alt="P6" height='500px'/>
+      <img src={P7} alt="P7" height='500px'/>
+      <img src={P9} alt="P9" height='500px'/>
+      <img src={P10} alt="P10" height='500px'/>
+    </div>
   )
 }
